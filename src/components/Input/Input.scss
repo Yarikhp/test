@@ -1,0 +1,20 @@
+.input-wrapper {
+  margin-top: 15px;
+  padding: 0 25px;
+}
+
+.input-text {
+  width: 100%;
+  padding: 10px 0;
+
+  font-weight: 600;
+  font-size: 18px;
+
+  border: none;
+  border-bottom: 2px solid #dddddd;
+  outline: none;
+
+  &:focus {
+    border-color: #3498db;
+  }
+}

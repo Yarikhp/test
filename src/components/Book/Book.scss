@@ -1,0 +1,52 @@
+.book-item {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 2.5vh;
+  padding: 30px;
+
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 3px;
+
+  transition: box-shadow 0.8s ease;
+
+  &:hover {
+    box-shadow: 0 0 12px;
+  }
+
+  &__image {
+    height: 116px;
+  }
+
+  &__description-block {
+    margin-left: 75px;
+    padding-right: 40px;
+  }
+
+  &__title {
+    margin: 0;
+
+    font-weight: 500;
+    font-size: 25px;
+  }
+
+  &__author {
+    margin-top: 15px;
+    margin-bottom: 0;
+
+    font-size: 20px;
+  }
+
+  &__year {
+    margin-top: 15px;
+    margin-bottom: 0;
+
+    font-size: 20px;
+  }
+
+  &__button-block {
+    margin-left: auto;
+  }
+}

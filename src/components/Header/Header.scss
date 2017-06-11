@@ -1,0 +1,16 @@
+.main-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 0;
+
+  background-color: #3498db;
+
+  &__title {
+    margin: 0;
+
+    font-weight: 500;
+    font-size: 38px;
+    color: #ffffff;
+  }
+}

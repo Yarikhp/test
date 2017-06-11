@@ -1,0 +1,63 @@
+.main-btn {
+  position: relative;
+
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin-left: 25px;
+
+  color: #ffffff;
+
+  background-color: #ff4081;
+  border: none;
+  border-radius: 100%;
+  cursor: pointer;
+
+  transition: background-color 0.3s ease-in 0s;
+
+  &:hover {
+    background-color: #e74c3c;
+  }
+
+  &:after {
+    content: "+";
+    position: absolute;
+    top: 5px;
+    left: 13px;
+
+    font-size: 37px;
+  }
+}
+
+.btn {
+  display: block;
+  padding: 14px;
+
+  font-size: 16px;
+  color: #ffffff;
+
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+
+  background-color: #e74c3c;
+  transition: background-color 0.5s ease;
+
+  &:hover {
+    background-color: #e77e2d;
+  }
+
+  &--edit {
+    width: 100%;
+  }
+
+  &--remove {
+    width: 100%;
+    margin-top: 15px;
+  }
+
+  &--cancel {
+    margin: 0 25px;
+  }
+}
